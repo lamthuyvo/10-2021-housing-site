@@ -1,8 +1,10 @@
 - name: Evictions
-  link: /blog/
+  link: /evictions/
 - name: Housing insecurity
-  link: /blog/
+  link: /housing/
 - name: Gentrification
-  link: /blog/
+  link: /gentrification/
+- name: Download our data
+  link: /data/
 - name: About
   link: /about/
