@@ -2,8 +2,8 @@
 # Site
 
 title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
-baseurl:
+url:
+baseurl: "https://lamivo.com/cuny-2021"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -104,18 +104,18 @@ defaults:
 # -----------
 # CloudCannon
 
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - Email
-  - RSS
-
-_comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+# social_icons:
+#   - Facebook
+#   - Google Plus
+#   - Instagram
+#   - LinkedIn
+#   - Pinterest
+#   - Tumblr
+#   - Twitter
+#   - YouTube
+#   - Email
+#   - RSS
+#
+# _comments:
+#   description: Text shown when sharing on social media
+#   blurb: Short bio or description of this person

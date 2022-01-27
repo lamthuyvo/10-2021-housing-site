@@ -1,10 +1,8 @@
-- name: Evictions
-  link: /evictions/
+- name: rental assistance
+  link: /rental_assistance/
 - name: Housing insecurity
   link: /housing/
 - name: Gentrification
   link: /gentrification/
 - name: Download our data
   link: /data/
-- name: About
-  link: /about/

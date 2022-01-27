@@ -74,3 +74,6 @@ Frisco is already optimised for adding, updating and removing pages, staff, advi
 
 * Exposed as a data file to give clients better access.
 * Set in the *Data* / *Footer* section.
+
+
+bundle exec jekyll serve

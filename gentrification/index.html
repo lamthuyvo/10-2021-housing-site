@@ -1,37 +1,169 @@
 ---
-title: Blog
-description: Keep up with the latest news.
-image: https://source.unsplash.com/MqJX_8EaStM/2000x1322?a=.png
+title: The Housing Crunch
+description: A Data Journalism Project from the Craig Newmark Graduate School of Journalism at CUNY about how New Yorkers are navigating housing issues during the pandemic.
+image: /gentrification/black_lady_theater.jpeg
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Gentrification</h1>
-			<p class="subtext editable">Hear the latest progress on Frisco and tips on making life long friends.</p>
+			<h1 class="editable">Vacant storefronts and rising rents illustrate a changing Bed-Stuy</h1>
+			<p class="subtext editable">Small businesses along Nostrand avenue are finding it hard to stay on the block with landlords hiking rental payments, which also limits owners who can afford to occupy empty storefronts.
+					<br>
+					<b>By Renee Onque, <a href=" https://zacharysmith90.github.io/">Zachary Smith</a>, <a href="https://www.julietjeske.com/">Juliet Jeske</a>, Gabriel Poblete</b>
+				</p>
 		</div>
 	</div>
 </section>
 
 <section>
 	<div class="text-container">
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
-		<ul class="blog-posts">
-			{% include list-posts.html posts=paginator.posts %}
-		</ul>
 
-		{% if paginator.total_pages > 1 %}
-			<div class="pagination">
-				{% if paginator.previous_page %}
-					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
-				{% endif %}
+		<p>
+    Janessa Wilson, an employee at the boutique wine store Liquid Assets in the
+    Brooklyn neighborhood of Bedford-Stuyvesant, has seen the neighborhood
+    around her change over the course of the 23 years she’s been there. Most
+    recently, a vacant storefront was purchased by a buyer from Los Angeles,
+    who intends to turn the space into a bar.
+		</p>
 
-				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+		<p>
+	    In the last ten years, the location on Nostrand Avenue where Liquid Assets
+	    is located has been occupied by three different businesses. Locals in the
+	    community believe the last tenant, ŻABKA Coffee, closed down due to rent
+	    increases. Prior to that, it was True South Bookstore, a shop focused on
+	    Black history, cultural studies, and roots, and a part-time barbershop in
+	    recognition of the owner before them. South Bookstore
+	    <a href="https://www.shelf-awareness.com/issue.html?issue=2095#m21663">
+	        in 2013 — also due to a dramatic rent increase
+	    </a>
+	    .
+		</p>
 
-				{% if paginator.next_page %}
-					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
-				{% endif %}
-			</div>
-		{% endif %}
+			<p>
+			    “It was the classic ‘dropping knowledge in the neighborhood’
+			    establishment,” Wilson said, one of the many members of the community who
+			    loved True South.
+			</p>
+
+			<p>
+			    The rapid turnover of this Liquid Asset’s storefront is emblematic of what
+			    is happening on Nostrand Avenue, the main commercial street in this
+			    Brooklyn neighborhood. Storefronts have either changed renters multiple
+			    times or are empty. There are entire blocks of vacant lots with weathered
+			    metal gates that look like they haven’t been cleaned or opened in years. At
+			    the same time, Nostrand is seeing a new wave of businesses, several with
+			    large signs in the window declaring they are Black-owned.
+			</p>
+
+			<img class="editable" src="../images/gentrification/liquor_store.jpg" />
+			<p><em>Liquid Assets is a Black-owned wine store in Bed-Stuy. (Photo: Juliet Jetske)</em></p>
+
+			<p>
+			    Altogether, the street tells a complex story of businesses that have been
+			    squeezed out of the neighborhood as a result of increasing rents, while
+			    some modern businesses are finding success in an increasingly whiter
+			    neighborhood. In the Bed-Stuy zip code of 11216, the Caucasian population
+			    almost doubled between 2011 to 2019, while the Black community has shrunk
+			    by nearly 25%, according to the U.S. Census Bureau.
+			</p>
+
+			<p>
+			    As a resident in the community, Wilson has witnessed ownership of
+			    businesses in the neighborhood changing from “small business owner to small
+			    business owner,” and shorter leases may be the cause.
+			</p>
+
+			<p>
+			    Up until the 1990s, businesses were able to get 10-year leases and 20-year
+			    leases, according to Imani Henry, housing activist, BAN Gentrification.
+			    “Now they can't even get a five-year lease,” said Henry.
+			</p>
+
+			<p>
+			    On nearby Fulton Street, nearly 20% of were vacant in 2017-2018, the New
+			    York City Department of Planning found in <a href="https://www1.nyc.gov/assets/planning/download/pdf/planning-level/housing-economy/assessing-storefront-vacancy-nyc.pdf"
+					> a 2019 report	</a>. The street is classified as a “hot retail corridor,” or a rapidly
+			    changing neighborhood where rents have increased or spaces have been kept
+			    vacant due to renters seeking high rents.
+			</p>
+
+			<p>
+				<a href="https://www1.nyc.gov/assets/planning/download/pdf/planning-level/housing-economy/retail-activity-nyc-covid-recovery.pdf">
+						A 2020 follow-up report</a> shows that inactive storefronts increased to nearly 25%.
+			</p>
+			<img class="editable" src="../images/gentrification/REO_0493.JPG" />
+			<p><em>A vacant block on Nostrand Avenue (Photo: Juliet Jetske)</em></p>
+
+			<p>
+			    One thing that may contribute to the high turnover of retail storefronts in
+			    the neighborhood are landlords who own multiple buildings carrying high
+			    levels of debt, according to an analysis with the real estate website,
+			    PropertyShark. We uncovered a pattern of landlords who owned numerous
+			    buildings with levels of debt higher than the purchase price of the
+			    building, which they try to make up with rising rents.
+			</p>
+
+			<p>
+			    Samuel Stein, a housing policy analyst from the
+			    <a
+			        href="https://www.cssny.org/publications/entry/corporate-windfalls-or-social-housing-conversions"
+			    >
+			        Community Service Society
+			    </a>
+			    , describes how this allows landlords to get as much equity as possible out
+			    of their building. In the Community Service Society report from November
+			    2020
+			    <a
+			        href="https://www.cssny.org/publications/entry/corporate-windfalls-or-social-housing-conversions"
+			    >
+			        “Corporate Windfalls or Social Housing Conversions? The looming
+			        mortgage crisis and the choices facing New York.”
+			    </a>
+			    Stein and his colleagues describe this pattern as pulling equity where landlords purchase buildings then immediately take out new short-term interest-only mortgages. This gives the landlord instant cash but incentives the need to cut services and increase rents.
+			</p>
+
+			<p>
+			    “The owner and the bank believe they’re making good business practices – or
+			    at least pulling in tremendous amounts of money. But it only works if
+			    tenants (commercial or residential) are able to pay ever-rising rents and
+			    if buyers will pay ever-higher prices for buildings in the city. What’s
+			    perhaps most noteworthy about this is that the landlords and their bankers
+			    still think those are safe assumptions,” said Stein.
+			</p>
+
+			<p>
+			    For example, the landlord, listed in the following graph as landlord 2, owns the building where True South Bookstore was located and also owns an additional 14 properties in the Bedford-Stuyvesant zip code of 11216.
+			</p>
+
+			<img class="editable" src="../images/gentrification/top_4_landlords.png" />
+			<p>This chart shows the top four landlords who owned multiple properties in 11216.  The number associated with each landlord is the total number of properties owned in New York City.  All four landlords carry excessive debt on most of their properties.  </p>
+
+			<p>The trend of landlords owning multiple properties was seen throughout the zip code.  In the 168 vacant storefronts surveyed 34% of the buildings were owned by landlords who owned three or more buildings in New York City.  The landlord who owned the most properties in 11216 owned 121 buildings. </p>
+
+			<img class="editable" src="../images/gentrification/168_Landlords.png" />
+
+			<p>Diarra, an employee at Soween Hair Salon on Nostrand who wanted to be referred to by her first name, has clients that were previous business owners in the neighborhood but could not afford their storefront rent increases and were forced to leave. She can recall one of her clients saying, “I’m leaving. I’m moving out,” after struggling to make payments.</p>
+
+			<p>Even when tenants do not want to move, they may be left with no choice. Sherese Parris, an artistic director at the Black Lady Theatre, remembers walking down the block in 2018 and seeing offer letters from a potential buyer on every storefront including the theater. Today, the closed theater is embroiled with its own real estate dispute over rights to the building.</p>
+
+			<img class="editable" src="../images/gentrification/black_lady_theater.jpeg" />
+			<p><em>Omar Hardy, the head of the Black Lady Theatre, left, and Sherese Parris, right (Photo: Juliet Jetske)</em></p>
+
+			While older businesses are pushed out, new businesses that can afford the rent are moving in, changing the make-up of the block. For Karen Narefsky of The Association for Neighborhood & Housing Development, these landlords decide who rents its storefronts, and that’s not always small business owners from the neighborhood.
+
+			<p>“I think ultimately, the people who are buying and selling and owning property and making decisions about who gets to occupy it and who doesn't, are the ones who are driving the gentrification process,” said Narefsky.</p>
+
+			<p>There are recent pushes to protect retail owners from some of these practices. Council Member Helen Rosenthal sponsored a bill that would establish protections for tenants of storefront premises, similar to legislation previously sponsored by Council Member Stephen Levin. However, the legislation has been held in committee, facing significant resistance from the real estate sector. Legislation that was recently passed was Council Member Carlina Rivera’s “State of the Storefronts” which requires a comprehensive analysis of neighborhood commercial corridors every five years.</p>
+
+			<p>Staples in the community like True South Bookstore and The Black Lady Theatre have positively impacted the lives of Bed-Stuy residents for decades. Through programs like book signings with Black authors and food giveaways for people in need, these businesses have served their communities even amid turmoil.</p>
+
+			<p>To this day, every Tuesday, Parris, and other Black Lady Theatre staff hand out groceries from food banks in front of the theater. The group also hosts virtual and in-person events on topics like mental health although they can no longer use the Nostrand Avenue location.</p>
+
+			<p>“We've had people who literally told me that they were on the brink of suicide and they needed a space,” said Parris. “They came here and they were able to express themselves in their life.”</p>
+
+
+			</br>
+			</br>
 	</div>
 </section>

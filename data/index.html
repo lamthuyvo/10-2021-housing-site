@@ -1,37 +1,28 @@
 ---
-title: Blog
-description: Keep up with the latest news.
-image: https://source.unsplash.com/MqJX_8EaStM/2000x1322?a=.png
+title: The Housing Crunch
+description: A Data Journalism Project from the Craig Newmark Graduate School of Journalism at CUNY about how New Yorkers are navigating housing issues during the pandemic.
+image: /data/nyc2.JPG
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">The latest news</h1>
-			<p class="subtext editable">Hear the latest progress on Frisco and tips on making life long friends.</p>
+			<h1 class="editable">The data</h1>
+			<p class="subtext editable">Download our class's data analyses here</p>
 		</div>
 	</div>
 </section>
 
 <section>
 	<div class="text-container">
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
-		<ul class="blog-posts">
-			{% include list-posts.html posts=paginator.posts %}
+
+		<p>All three stories were supported with reproducible analyses. You can find the data and code related to the stories below:</p>
+		<ul>
+			<li><a href="https://github.com/annyoberlink/2021-10-erap-analysis">In the Bronx Pandemic Rental Aid Can't Come Too Soon</a></li>
+			<li><a href="https://github.com/annadeen2/data-analysis-housing-insecurity">At the intersection of rising rent and unemployment</a></li>
+			<li><a href="https://github.com/reneeonque/gentrification-data">Along Nostrand Ave, Vacant storefronts and rising rents illustrate a changing Bed-Stuy</a></li>
 		</ul>
-
-		{% if paginator.total_pages > 1 %}
-			<div class="pagination">
-				{% if paginator.previous_page %}
-					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
-				{% endif %}
-
-				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-				{% if paginator.next_page %}
-					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
-				{% endif %}
-			</div>
-		{% endif %}
+		<br>
+		<br>
 	</div>
 </section>

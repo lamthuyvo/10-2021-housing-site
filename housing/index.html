@@ -1,37 +1,50 @@
 ---
-title: Blog
-description: Keep up with the latest news.
-image: https://source.unsplash.com/MqJX_8EaStM/2000x1322?a=.png
+title: The Housing Crunch
+description: A Data Journalism Project from the Craig Newmark Graduate School of Journalism at CUNY about how New Yorkers are navigating housing issues during the pandemic.
+image: /housing/nyc6.JPG
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">The latest news</h1>
-			<p class="subtext editable">Hear the latest progress on Frisco and tips on making life long friends.</p>
+			<h1 class="editable">At the intersection of rising rent and unemployment </h1>
+			<p class="subtext editable">
+				A zip code in East New York experienced some of the highest unemployment rates and increases in the observed rent index throughout the COVID-19 pandemic
+				<br>
+				<b>By Jessica Lerner, Jacob Schermerhorn and <a href="https://twitter.com/annadeen2">Anna Deen</a></b>
+			</p>
 		</div>
 	</div>
 </section>
 
 <section>
 	<div class="text-container">
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
-		<ul class="blog-posts">
-			{% include list-posts.html posts=paginator.posts %}
-		</ul>
-
-		{% if paginator.total_pages > 1 %}
-			<div class="pagination">
-				{% if paginator.previous_page %}
-					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
-				{% endif %}
-
-				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-				{% if paginator.next_page %}
-					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
-				{% endif %}
-			</div>
-		{% endif %}
+		<p>&nbsp;It&rsquo;s one of the busiest seasons for the&nbsp;<a href="https://www.eastbrooklynmutualaid.org/" style="text-decoration:none;">East Brooklyn Mutual Aid</a>, an organization that buys and delivers groceries for free to residents in East Brooklyn neighborhoods &nbsp;Kelvin Taitt started East Brooklyn Mutual Aid as an adhoc experiment to help his community during the pandemic in 2020. But he couldn&rsquo;t have imagined how much need there is for his organization&rsquo;s services.&nbsp;</p>
+		<p>East New York, one of the four East Brooklyn neighborhoods Taitt&rsquo;s mutual aid group serves, represents the intersection of some of the fastest growing rents and highest rates of unemployment in the city, an analysis of unemployment data from the the&nbsp;<a href="https://github.com/annadeen2/data-analysis-housing-insecurity/blob/main/Output/unemployment-zip_dec_2020.csv" style="text-decoration:none;">DEEP-MAPS model of the labor force</a>&nbsp;and rental data from&nbsp;<a href="https://docs.google.com/spreadsheets/d/18WmKz5PmTTyLtSIImd2LuKnigKNSZloQt20rezS4n6k/edit?usp=sharing" style="text-decoration:none;">Zillow</a>&nbsp;showed. People seeking help return to Taitt&rsquo;s program whenever there&rsquo;s a spike in COVID-19 cases. Now Taitt is planning to build micro- and borough-wide food hubs.</p>
+		<p>&ldquo;We didn&apos;t want folks to have to make a decision between putting food on their table or paying their rent,&rdquo; Taitt said.</p>
+		<p>At the height of the economic fallout from the covid-19 pandemic in December 2020, the unemployment rate peaked at 31.27% in parts of the zip code where residents Taitt help live. Additionally, from 2014 to 2020, the same zip code saw a 22% increase in its observed rent index, a statistic used to&nbsp;<a href="https://www.zillow.com/research/methodology-zori-repeat-rent-27092/" style="text-decoration:none;">measure changes in asking rents</a>&nbsp;over time. That increase in rent prices was double the average for available zip codes in the NYC area. By comparison, the seasonally unadjusted unemployment&nbsp;<a href="https://dol.ny.gov/system/files/documents/2021/10/state-labor-department-releases-preliminary-september-2021-area-unemployment-rates.pdf" style="text-decoration:none;">rate</a>&nbsp;is, as of September, 8.9%, down from the previous year&rsquo;s unemployment rate of 14.7%, but it still hasn&rsquo;t rebounded from the pre-pandemic&nbsp;<a href="https://statistics.labor.ny.gov/nyc/index.shtm" style="text-decoration:none;">rate</a>&nbsp;of 4.1%. On average rent increased by 10.23% city-wide.&nbsp;</p>
+		<script async src="//jsfiddle.net/realhumanjacob/8hkf2ynu/21/embed/result/"></script>
+		<p>What residents like those Taitt has met experience is emblematic of how the pandemic-related economic downturn will exacerbate existing trends. Long before the economic fallout from the COVID-19 pandemic, many New Yorkers experienced significant rent burdens, overcrowded living situations, insecure work chances and other enormous difficulties to their housing security. For years, increasing rents have outpaced income growth, and up to 800,000 New York City residents lost their unemployment benefits Labor Day, exacerbating the city&apos;s housing instability.&nbsp;</p>
+		<p>For instance, one elderly brother and sister, with limited incomes and resources, have seen their bills pile up and felt they don&rsquo;t have anyone to turn to for support, according to Taitt. &ldquo;Being on fixed incomes, the bills and the utilities will.... go up all the time,&rdquo; he said. &ldquo;The cost of food goes up&hellip;.and they just can&apos;t afford it.&rdquo;&nbsp;</p>
+		<h2>Increased insecurity means increased movements</h2>
+		<p>Raysa Rodriguez, associate executive director for policy and advocacy at Citizens&rsquo; Committee for Children of New York, focuses on policy and research into homelessness in her current position &nbsp;Although it&rsquo;s no longer part of her job, she still visits family shelters to make sure she gets a good understanding of how families are faring.</p>
+		<p>On a recent visit, she spoke with families about ways to prevent being forced to return to the shelter system, an experience that can be traumatic and detrimental for child development and growth.</p>
+		<p>&ldquo;PTSD isn&rsquo;t this thing that just happens to adults. We know that young children, infants and toddlers can have PTSD,&rdquo; Rodriguez said, &ldquo;Whoever the [next] mayor is, they need to actually focus on preventative measures, stopping the cycle before it starts.&rdquo;</p>
+		<p>Besides moving into shelters, other actions people suffering from housing insecurity are forced to take, including moving into overcrowded housing units, or &ldquo;couch surfing&rdquo; with friends or family, can result in anxiety, behavioral changes, difficulties with self-regulation, difficulties sleeping or nightmares, Rodriguez said.</p>
+		<p>The number of families in shelters has decreased in recent years. After peaking to over 15,000 in 2017, it fell to around 10,000 families in September 2021, according to numbers from advocacy group&nbsp;<a href="https://www.coalitionforthehomeless.org/facts-about-homelessness/" style="text-decoration:none;">Coalition for the Homeless</a>. However, even with this seemingly encouraging sign, Rodriguez warned against misjudging its true success.</p>
+		<p>&ldquo;Just because there&rsquo;s a decline in numbers doesn&rsquo;t mean there&rsquo;s a decline in need,&rdquo; Rodriguez said. &ldquo;We were busy before COVID; We&rsquo;re even busier now.&rdquo; Agencies helping those currently facing housing insecurity are trying to provide services as best they can.&nbsp;</p>
+		<p>The state of New York has intervened in several ways, including with the&nbsp;<a href="https://otda.ny.gov/programs/landlord-rental-assistance/" style="text-decoration:none;">Landlord Rental Assistance Program</a>&nbsp;that accepted applications through November 21, 2021 and the federally funded&nbsp;<a href="https://otda.ny.gov/programs/emergency-rental-assistance/" style="text-decoration:none;">Emergency Rental Assistance Program</a>, which will roll out $1.2 billion in funds to qualifying applicants behind on rent and the a&nbsp;<a href="https://www.governor.ny.gov/news/governor-hochul-signs-new-moratorium-covid-related-residential-and-commercial-evictions-law" style="text-decoration:none;">moratorium</a>&nbsp;on evictions, set to expire on January 15, 2022. But advocates say help is slow to come by and barely enough for the increased number of people in need.&nbsp;</p>
+		<p>&ldquo;It is deepening conditions that have already existed and digging that hole even deeper,&rdquo; Rodriguez said and added shelters should prepare to accept a higher number once again if services do not improve.</p>
+		<p>&ldquo;Homeowners [who] have tenants, in many instances, are far behind in rent,&rdquo; said City Council Member Inez Barron, the representative for District 42, encompassing part of East New York</p>
+		<p>Barron knows of one homeowner in her district with two tenants owing more than $20,000 in rent. Her office has worked with these constituents to address the issue by, for instance, identifying the documentation the landlord needs for assistance from New York state.</p>
+		<p>Despite the comparatively high unemployment rates, several federal unemployment assistance programs &mdash; including the pandemic unemployment assistance program that was part of the&nbsp;<a href="https://dol.ny.gov/coronavirus-aid-relief-and-economic-security-cares-act" style="text-decoration:none;">Coronavirus Aid, Relief, and Economic Security Act</a>&nbsp;&mdash; expired on Sept. 5.</p>
+		<p>Since March 2020, 60% of families in the New York metro area have reported a loss of income. In addition, East New York&nbsp;<span style="font-size:11.5pt;font-family:Arial;color:#1d1c1d;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">shows one of the greatest housing risks in Brooklyn and contains a high percentage of people of color, according to Citizens&rsquo; Committee for Children of New York.</p>
+		<h2>A need for better solutions</h2>
+		<p>Several New York City mayoral administrations&apos; decades of disinvestment, redlining, predatory real estate practices and flawed affordable housing plans have left Black and brown residents in Brooklyn, including East New York, with less access to safe and affordable housing, as well as limited their ability to build wealth, according to the authors of&nbsp;<a href="https://brooklyncommunities.org/wp-content/uploads/2021/08/Health-Housing-PAR-Report_2020-2021.pdf" style="text-decoration:none;">a report&nbsp;</a>by Brooklyn Communities Collaborative.</p>
+		<p>The city&rsquo;s long-term solutions to address housing insecurity include &ldquo;mandatory inclusive housing,&rdquo; which&nbsp;<a href="https://www1.nyc.gov/site/planning/plans/mih/mandatory-inclusionary-housing.page" style="text-decoration:none;">requires</a>&nbsp;developers to include a percentage of affordable units in any new housing developments.&nbsp;</p>
+		<script async src="//jsfiddle.net/annadeen/0b4ofc5n/6/embed/result/"></script>
+		<p>A quarter of residential units must be affordable for residents with incomes averaging 60% of the average median income, or AMI. In the future, Barron said, a third of the housing units in her district will be affordable for those with incomes averaging 80% of the AMI. Units are also set aside for the formerly homeless.</p>
+		<p>Taitt said he knows of one development, taking several years to build. The building may set aside roughly 20 units for affordable housing, which is wonderful, he said, but the nearby homeless shelters house 200 people each. &ldquo;You have another 180 folk that are still out of homes.&rdquo;</p>
+		<p>&ldquo;I commend our officials for [&hellip;] advocating for more affordable housing in our communities &mdash; that helps,&rdquo; he said. &ldquo;But the lottery takes years for some people to even get a phone call.&rdquo;</p>
 	</div>
 </section>
